@@ -95,8 +95,8 @@ display: none;
 
 
 
-@media(min-width:450px) and (max-width:1105px){
-
+@media(min-width:481px) and (max-width:1105px){
+ 
     .menu-opener{
         display: flex;
         width: 40px;
@@ -104,6 +104,7 @@ display: none;
     }
 
     .logo{
+        
         margin-left: 30px;
     }
 
@@ -279,16 +280,16 @@ display: none;
     background-color: #b28756;
 }
 
-@media(min-width:450px) and (max-width:1105px){
+@media(min-width:500px) and (max-width:1105px){
     .banner h1{
         font-size: 50px;
     }
 
 }
 
-@media(max-width:480px){
-    .banner h1{
-        font-size: 30px;
+@media(max-width:500px){
+    .banner h1, .banner h2{
+        font-size: 20px;
     }
 
 }
