@@ -289,7 +289,7 @@ display: none;
 
 @media(max-width:500px){
     .banner h1, .banner h2{
-        font-size: 20px;
+        font-size: 50px;
     }
 
 }
